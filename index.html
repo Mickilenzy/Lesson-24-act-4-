@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    
+    <title>JavaScript Real-Life Example</title>
+    </head>
+
+    <body>
+        <h1>My Blog Post </h1>
+        <p>This is an amazing blog post about Javascript!</p>
+
+        <!--Like Button and Counter-->
+        <button id="Like-btn"></button>
+        <p id="Like-count">Likes</p>
+
+        <!--JavaScript Code-->
+        <script>
+            // Start with 0 likes 
+            let likes = 0;
+
+            // Access the button and the paragraph
+            const likeButton = document.getElementById("like-btn");
+            const likeCount = documennt.getElementById("like-count");
+
+            // Add an event listner to the button
+            likebutton.addEventlistner("click", function () {
+                // Increament the likes 
+                likes += 1;
+
+                // Update the text in the DOM
+                likeCount.innerText = "likes: $(likes)";
+            });
+        </script>
+    </body>
+    
